@@ -20,3 +20,4 @@ ignition/deployments/chain-31337
 src/data/monthlyEnergy.json
 src/data/monthlyEnergy.csv
 src/data/deptAddressMap.json
+hh_cache/
