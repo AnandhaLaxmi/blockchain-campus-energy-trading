@@ -2,7 +2,7 @@
 
 A decentralized peer-to-peer energy trading platform enabling departments within a campus to buy and sell energy transparently using blockchain, with sustainability-driven incentive rewards.
 
-> Published research paper available in `energytradingv1.md`
+> 📄 **Published Paper:** [Blockchain-Based Smart Energy Trading and Incentive System for Campus Microgrids](https://ieeexplore.ieee.org/document/11486181) — IEEE Xplore
 
 ---
 
@@ -58,21 +58,21 @@ A three-layer hybrid architecture:
 - **Ethereum Sepolia** — Test network deployment
 
 ---
-...
 ## Repository Structure
 
+```
 blockchain-campus-energy-trading/
 ├── contracts/          # Solidity smart contracts
 ├── scripts/            # Deployment and data loading scripts
 ├── test/               # Contract test suite
 ├── energy-dapp/        # React frontend
-│   ├── src/
-│   │   ├── abis/       # Contract ABIs for frontend
-│   │   └── data/       # Institutional energy data (excluded for privacy)
+│   └── src/
+│       ├── abis/       # Contract ABIs for frontend
+│       └── data/       # Institutional energy data (excluded for privacy)
 ├── energytradingv1.md  # Research paper
 ├── hardhat.config.js
 └── README.md
-...
+```
 ---
 
 > **Note:** Institutional campus energy consumption data has been excluded from this repository for privacy. The system was validated using real operational data from SSN College of Engineering, Chennai.
@@ -99,4 +99,4 @@ Weights are configurable to reflect institutional priorities.
 
 Built at the Department of Electrical and Electronics Engineering, SSN College of Engineering, Chennai, under the Internally Funded Student Project (IFSP) scheme, SSN Trust.
 
-**Team:** Anandha Laxmi Senthilkumar, Leo Raju  
+**Authors:** Anandha Laxmi Senthilkumar, Leo Raju  
