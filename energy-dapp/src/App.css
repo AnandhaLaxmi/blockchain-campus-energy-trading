@@ -1,0 +1,79 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+.app.light {
+  background: #f6f6f6;
+  color: #222;
+}
+
+.topbar {
+  background: #0f0f0f;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #00ff88;
+}
+
+.topbar h1 {
+  margin: 0;
+  color: #00ff88;
+}
+
+.themeBtn, .connectBtn, button {
+  background: #00ff88;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  margin: 4px 0;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #00ff99;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.panel {
+  background: #0e0e0e;
+  border: 1px solid #00ff88;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.listBox {
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #00ff88;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.orderItem, .proposalItem, .logItem {
+  padding: 10px;
+  border-bottom: 1px solid #00ff88;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #00ff88;
+  background: #000;
+  color: #00ff88;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
