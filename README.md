@@ -2,7 +2,7 @@
 
 A decentralized peer-to-peer energy trading platform enabling departments within a campus to buy and sell energy transparently using blockchain, with sustainability-driven incentive rewards.
 
-> 📄 **Published Paper:** [Blockchain-Based Smart Energy Trading and Incentive System for Campus Microgrids](https://ieeexplore.ieee.org/document/11486181) — IEEE Xplore
+>  **Published Paper:** [Blockchain-Based Smart Energy Trading and Incentive System for Campus Microgrids](https://ieeexplore.ieee.org/document/11486181) — IEEE Xplore
 
 ---
 
